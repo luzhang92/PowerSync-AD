@@ -84,3 +84,17 @@ $ pip install -r requirements.txt
     `
 
     The results are stored in the file impact_csv. The results include the BFV ration, finish_async ratio of different schemes.
+
+## Running with Docker
+
+You can use the command
+
+`
+$ docker run -ti luke92/powersync:AD /bin/bash
+`
+
+`
+$ cd /home/PowerSync-AD/
+`
+
+Then you can run the code as above.
